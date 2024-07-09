@@ -1,0 +1,68 @@
+/* nav st */
+nav{
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav h5{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+}
+nav button{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+}
+/* nav end */
+/* header st */
+/* banner-bg st */
+.banner-bg{
+    width: 1440px;
+    height: 652px;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.first-section{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-section h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.first-section p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.first-section button{
+    border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+padding: 21px 24px 21px 24px;
+}
+/* banner-bg end */
