@@ -1,3 +1,15 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 /* nav st */
 nav{
     width: 1440px;
@@ -5,21 +17,22 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 
 }
 nav h5{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
 }
 nav button{
     padding: 17px 24px 17px 24px;
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
 }
 /* nav end */
 /* header st */
@@ -32,6 +45,7 @@ opacity: 0.8;
     background-size: cover;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .first-section{
@@ -45,24 +59,308 @@ opacity: 0.8;
 }
 .first-section h2{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
 }
 .first-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.first-section button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+}
+/* first section end */
+.development{
+    margin: 0 auto;
+}
+.web-development{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+.web-development .content{
+    text-align: center;
+}
+
+.web-development .content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.web-development .content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.first-div{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.first-div .work{
+    width: 50%;
+}
+.first-div h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.first-div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.first-div a{
+    display: inline-block;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+    padding: 12px 20px 12px 20px;
+}
+
+
+.second-div{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.second-div .work{
+    width: 50%;
+}
+.second-div h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.second-div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.second-div a{
+    display: inline-block;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+    padding: 12px 20px 12px 20px;
+}
+
+.third-div{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.third-div .work{
+    width: 50%;
+}
+.third-div h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.third-div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.third-div a{
+    display: inline-block;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+    padding: 12px 20px 12px 20px;
+}
+/* development section end */
+
+/* youtube section st */
+.youtube{
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    text-align: center;
+    margin-top: 48px;
+    
+
+}
+.text-section{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+}
+.text-section h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+}
+.text-section p{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 }
-.first-section button{
-    border-radius: 8px;
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-padding: 21px 24px 21px 24px;
+.video-section{
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
 }
-/* banner-bg end */
+/* third section end */
+/* fourth section st */
+.target{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.target-tittle{
+    text-align: center;
+}
+.target-tittle h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+}
+.target-tittle p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.programing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.programing .html{
+    width: 284px;
+height: 219px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.programing .css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 284px;
+height: 219px;
+    padding: 40px;
+}
+.programing .java{
+    width: 284px;
+    height: 219px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.html h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+margin-top: 5px;
+}
+.html p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.html a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+}
+.css h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+margin-top: 5px;
+}
+.css p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.css a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+}
+
+.java h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+margin-top: 5px;
+}
+.java p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.java a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+}
